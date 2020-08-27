@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../css/uikit.css" />
+<link rel="stylesheet" type="text/css" href="../css/kahvecoffee.css"/> <!--aca va el css en que carpeta y archivo es para relacionarlo-->
+<title>Kahve Coffee</title>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="../img/photo_1.jpg" uk-img> <!--cambiar tamano de la imagen-->
+<h1 class="A" onmouseover="style.color='#04B4AE'" onmouseout="style.color='white'"> Kahve </h1>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../html/Coffee.html">Coffee</a></li>
+<li><a href="../html/tips.html">Tips</a></li>
+<li><a href="../html/blog.html">Blog</a></li>
+<li><a href="html/contact.html">Contact</a></li>
+<br/><br/>
+</ul>
+</nav>
+<hr/>
+<br/>
+<section>
+<br/>
+<br/>
+<br/>
+<div class="GC">
+<div class="uk-container uk-container-small">
+<!--<article>-->
+<form onsubmit="return validateForm()">
+<fieldset><legend><b>Customer Details</b></legend>
+<h3>First name: <input type="text" id="firstname" size="20" onblur="myWay()"/></h3>
+<span id="firstNameError"></span><br></br>
+<h3>Last name: <input type="text" id="lastname" size="20" onblur="myWay()"/></h3>
+<span id="lastNameError"></span><br></br>
+<h3>Email: <input type="text" id="email" size="8" onfocus="myFunction(this)"/></h3>
+<span id="emailError"></span>
+<br/><br/>
+<!--aca poner script de este formulario-->
+</fieldset>
+<button class="uk-button uk-button-secondary  uk-margin-small-bottom" uk-icon="forward">SUBMIT</button>
+</form>
+<!--</article>-->
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<p>Copyright 2020. Martin Millan</p>
+</footer>
+
+</div>
+<script src="../jquery/jquery-3.2.1.min.js"></script>
+<script src="../js/uikit.min.js"></script>
+<script src="../js/uikit-icons.min.js"></script>
+</body>
+</html>
